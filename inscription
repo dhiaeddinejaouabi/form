@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <title>inscription</title>
+  </head>
+  <body>
+<center><h1>inscription</h1></center>
+<form>
+  nom:
+  <input type="text" name="txt" value=""/><br><br>
+prenon:
+  <input type="text" name="txt" value=""/><br><br>
+
+  
+  <input type="checkbox" name="gender" />masculin
+  <input type="checkbox" name="gender"/>feminin
+<br><br>
+adresse
+<input type="text" /><br><br>
+
+code postal/localite
+<input type="text" /><br><br>
+
+niveau d'etude:
+  <select name="bac">
+  <option> bac
+  <option> bac+1
+  <option> bac+2
+  </select>
+  <br>
+
+  formation(s)
+  <select name="formation" size="3">
+  <option >DAO
+  <option>SGBD
+  <option>Inetrnet
+  </select>
+  <br><br>
+  <input type="reset" value="envoyer" />
+<input type="reset" value="effacer" />
+  </form>
+  </body>
+</html>
